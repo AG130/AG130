@@ -92,10 +92,10 @@ export default {
         {
           id: 3,
           name: "轨迹线3",
-          timeStart: "12:00",
-          placeStart: "地大未来城",
-          timeEnd: "13:00",
-          placeEnd: "地大南望山",
+          timeStart: "00:00:02",
+          placeStart: "金泰燕翅停车场",
+          timeEnd: "05:01:03",
+          placeEnd: "华强北店停车场",
         },
       ],
       traceSetVis: false,
@@ -104,11 +104,7 @@ export default {
         distance: "",
       },
       // 停驻点
-      pointsArr: [
-        { lng: 114.625212, lat: 30.46644 },
-        { lng: 114.619551, lat: 30.466218 },
-        { lng: 114.617589, lat: 30.466121 },
-      ],
+      pointsArr: [],
     };
   },
   methods: {
